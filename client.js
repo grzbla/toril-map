@@ -53,7 +53,7 @@ function loadMap()
         zoomControl: false
     });
 
-    var worldMiniMap = L.control.worldMiniMap({position: 'bottomleft', map: "assets/ui/minimap.png", style: {opacity: 0.9, borderRadius: '0px', backgroundColor: 'lightblue'}}).addTo(map);
+    var worldMiniMap = L.control.worldMiniMap({position: 'bottomleft', map: "assets/ui/minimap.png", style: {opacity: 0.7, borderRadius: '0px', backgroundColor: '#4272F4'}}).addTo(map);
 
     hand = L.icon({
         iconUrl: 'assets/ui/pointers/hand.png',
