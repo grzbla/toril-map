@@ -52,8 +52,8 @@ function loadMap()
         nowPlaying: true,
         zoomControl: false
     });
-    
-    var worldMiniMap = L.control.worldMiniMap({position: 'topright', map: "assets/ui/minimap.png", style: {opacity: 0.9, borderRadius: '0px', backgroundColor: 'lightblue'}}).addTo(map);
+
+    var worldMiniMap = L.control.worldMiniMap({position: 'bottomleft', map: "assets/ui/minimap.png", style: {opacity: 0.9, borderRadius: '0px', backgroundColor: 'lightblue'}}).addTo(map);
 
     hand = L.icon({
         iconUrl: 'assets/ui/pointers/hand.png',
@@ -271,3 +271,8 @@ var backgrounds;
 // checkMapAvailability(); relic
 loadMap()
 }
+
+
+//todo
+//https://github.com/thomasbrueggemann/leaflet.boatmarker
+// https://github.com/lifeeka/leaflet.bezier#demo
