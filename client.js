@@ -276,3 +276,31 @@ loadMap()
 //todo
 //https://github.com/thomasbrueggemann/leaflet.boatmarker
 // https://github.com/lifeeka/leaflet.bezier#demo
+// https://github.com/sandropibia/Leaflet.SelectAreaFeature/
+// https://github.com/eJuke/Leaflet.Canvas-Markers
+// https://github.com/elfalem/Leaflet.curve
+// https://gitlab.com/IvanSanchez/Leaflet.GLMarkers
+// https://gitlab.com/IvanSanchez/Leaflet.GLMarkers
+// https://wbkd.github.io/leaflet-swoopy/
+// https://github.com/adoroszlai/leaflet-distance-markers
+// https://github.com/mapshakers/leaflet-icon-pulse
+// https://github.com/heyman/leaflet-usermarker
+// https://rubenspgcavalcante.github.io/leaflet-ant-path/
+// https://github.com/0n3byt3/Leaflet.MarkerPlayer
+// https://igor-vladyka.github.io/leaflet.motion/
+// https://github.com/Igor-Vladyka/leaflet.motion
+// https://github.com/naturalatlas/leaflet-transitionedicon
+// https://github.com/ghybs/Leaflet.FeatureGroup.SubGroup
+// https://github.com/ProminentEdge/leaflet-measure-path
+// https://github.com/clavijojuan/L.multiControl
+// https://github.com/clavijojuan/L.cascadeButtons
+// https://meteo-concept.github.io/leaflet-inflatable-markers-group/example2
+// https://github.com/Leaflet/Leaflet.markercluster
+// https://github.com/hallahan/LeafletPlayback
+// https://github.com/linghuam/Leaflet.TrackPlayBack
+// https://maydemirx.github.io/leaflet-tag-filter-button/
+// https://luka1199.github.io/Leaflet.AnimatedSearchBox/examples/example_fuse.html
+// https://github.com/wrwrh/leaflet-popupmovable
+// https://github.com/jjimenezshaw/Leaflet.Control.Layers.Tree
+// https://github.com/davicustodio/Leaflet.StyledLayerControl
+// https://github.com/ScanEx/Leaflet-IconLayers
