@@ -50,7 +50,9 @@ function loadMap()
         attributionControl: false,
         radioButtons: true,
         nowPlaying: true,
-        zoomControl: false
+        zoomControl: false,
+        maxBounds: new L.LatLngBounds(new L.LatLng(62,-180), new L.LatLng(62, 180)),
+        maxBoundsViscosity: 0.75
     });
 
     var worldMiniMap = L.control.worldMiniMap({position: 'bottomleft', map: "assets/ui/minimap.png", width: 168, height: 96, style: {opacity: 0.7, borderRadius: '0px', backgroundColor: '#4272F4'}}).addTo(map);
