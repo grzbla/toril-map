@@ -11,7 +11,8 @@ fs.readdir(path, function (err, files) {
     // Make one pass and make the file complete
 
     let tiles = file.slice(0, -4).split("x")
-    tiles[0] = parseInt(tiles[0].split("_")[1]) - 1
+    const splat = tiles[0].split("_")
+    tiles[0] = parseInt(splat[splat.length - 1]) - 1
     tiles[1] = parseInt(tiles[1]) - 1
 
     const fromPath = path + "/" + file, toPath = path + "/" + tiles[0] + "x" + tiles[1] + ".jpg"
