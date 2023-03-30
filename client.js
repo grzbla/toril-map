@@ -55,7 +55,7 @@ function loadMap()
         maxBoundsViscosity: 0.75
     });
 
-    var worldMiniMap = L.control.worldMiniMap({position: 'bottomleft', map: "assets/ui/minimap.png", width: 168, height: 96, style: {opacity: 0.7, borderRadius: '0px', backgroundColor: '#4272F4'}}).addTo(map);
+    var worldMiniMap = L.control.worldMiniMap({position: 'bottomleft', map: "assets/ui/minimap.png", width: 230, height: 107, style: {opacity: 0.7, borderRadius: '0px', backgroundColor: '#4272F4'}}).addTo(map);
 
     hand = L.icon({
         iconUrl: 'assets/ui/pointers/hand.png',
