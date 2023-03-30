@@ -44,7 +44,7 @@ function loadMap()
     // mapConnectionStatus = "online";
     map = L.map('mapContainer',
     {
-        minZoom: 3,
+        minZoom: 5,
         maxZoom: 9,
         click: true,
         attributionControl: false,
