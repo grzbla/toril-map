@@ -51,7 +51,7 @@ function loadMap()
         radioButtons: true,
         nowPlaying: true,
         zoomControl: false,
-        // maxBounds: new L.LatLngBounds(new L.LatLng(-180,-180), new L.LatLng(180, 180)),
+        maxBounds: new L.LatLngBounds(new L.LatLng(84,-180), new L.LatLng(11, 180)),
         maxBoundsViscosity: 0.75
     });
 
