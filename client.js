@@ -44,14 +44,14 @@ function loadMap()
     // mapConnectionStatus = "online";
     map = L.map('mapContainer',
     {
-        minZoom: 5,
-        maxZoom: 9,
+        minZoom: 3,
+        maxZoom: 8,
         click: true,
         attributionControl: false,
         radioButtons: true,
         nowPlaying: true,
         zoomControl: false,
-        maxBounds: new L.LatLngBounds(new L.LatLng(84,-180), new L.LatLng(11, 180)),
+        // maxBounds: new L.LatLngBounds(new L.LatLng(84,-180), new L.LatLng(11, 180)),
         maxBoundsViscosity: 0.75
     });
 
