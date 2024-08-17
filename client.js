@@ -96,7 +96,7 @@ function loadMap()
     positron = L.tileLayer("https://toril{z}.sesja.co/tiles/{y}/{x}.png").addTo(map);
 
     let isHash = window.location.hash.length > 0
-    if (isHahs)
+    if (isHash)
     {
         var commands = window.location.hash.split(";");
         commands[0] = commands[0].substring(1);
