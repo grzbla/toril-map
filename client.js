@@ -95,7 +95,8 @@ function loadMap()
 
     positron = L.tileLayer("https://toril{z}.sesja.co/tiles/{y}/{x}.png").addTo(map);
 
-    if (window.location.hash.length > 0)
+    let isHash = window.location.hash.length > 0
+    if (isHahs)
     {
         var commands = window.location.hash.split(";");
         commands[0] = commands[0].substring(1);
@@ -127,12 +128,14 @@ function loadMap()
             }
         }
     }
-    else
+    map.setView(initialLoc, initialZoom);
+    
+    if (!isHash)
     {
         setHash();
     }
 
-    map.setView(initialLoc, initialZoom);
+    
 
 
     // setTimeout(function()
