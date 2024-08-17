@@ -95,7 +95,7 @@ function loadMap()
         setHash();
     });
 
-    positron = L.tileLayer(window.location.origin + "/toril-map-{z}/tiles/{y}/{x}.png").addTo(map);
+    positron = L.tileLayer("https://toril{z}.sesja.co/tiles/{y}/{x}.png").addTo(map);
 
     if (window.location.hash.length > 0)
     {
