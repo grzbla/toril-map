@@ -68,8 +68,6 @@ function loadMap()
         popupAnchor:  [50, -70] // point from which the popup should open relative to the iconAnchor
     });
 
-    map.setView(initialLoc, initialZoom);
-
     map.on("click", function(event)
     {
         markerLoc = [event.latlng.lat, event.latlng.lng];
@@ -133,6 +131,9 @@ function loadMap()
     {
         setHash();
     }
+
+    map.setView(initialLoc, initialZoom);
+
 
     // setTimeout(function()
     // {
